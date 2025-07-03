@@ -46764,6 +46764,8 @@ a.u-link.u-text-hover-color-var:hover {
 .u-header .u-image-1 {
   width: 185px;
   height: 64px;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
   margin: 22px auto 0 0;
 }
 
@@ -46778,6 +46780,7 @@ a.u-link.u-text-hover-color-var:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -46791,13 +46794,19 @@ a.u-link.u-text-hover-color-var:hover {
   .u-header .u-menu-1 {
     width: auto;
   }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
 }
 
 
+
+.u-header .u-image-1, .u-header .u-image-1:before, .u-header .u-image-1 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-header .u-image-1.u-image-1.u-image-1:hover {
+    transform: scale(1.1) translateX(0px) translateY(0px) !important
+}
+.u-header .u-image-1.u-image-1.u-image-1.hover {
+    transform: scale(1.1) translateX(0px) translateY(0px) !important
+} 
 
  .u-footer {
   background-image: none;
@@ -46809,7 +46818,7 @@ a.u-link.u-text-hover-color-var:hover {
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 49px auto;
+  margin: 0 auto 60px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
