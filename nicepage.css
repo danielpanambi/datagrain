@@ -46813,12 +46813,13 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 134px;
 }
 
 .u-footer .u-text-1 {
-  width: 417px;
-  margin: 0 auto 60px;
+  font-size: 1.125rem;
+  width: 572px;
+  margin: 38px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -46833,6 +46834,10 @@ a.u-link.u-text-hover-color-var:hover {
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
     min-height: 57px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 540px;
   }
 }
 @media (max-width: 575px) {
