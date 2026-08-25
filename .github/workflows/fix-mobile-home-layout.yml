@@ -1,0 +1,63 @@
+name: Fix mobile homepage layout
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-mobile-home-layout.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add mobile layout override
+        run: |
+          cat >> index.css <<'CSS'
+
+/* Mobile homepage flow fix: keep CTA between logo and second paragraph */
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+
+  .u-section-1 .u-text-1 {
+    order: 1;
+    margin: 8px 0 0 !important;
+  }
+
+  .u-section-1 .u-image-1 {
+    order: 2;
+    margin: 17px 0 0 !important;
+  }
+
+  .u-section-1 .u-btn-1 {
+    order: 3;
+    margin: 20px auto 0 !important;
+  }
+
+  .u-section-1 .u-text-2 {
+    order: 4;
+    margin: 25px 0 0 !important;
+  }
+
+  .u-section-1 .u-text-3 {
+    order: 5;
+    margin: 32px 0 44px !important;
+  }
+}
+CSS
+
+      - name: Commit mobile layout fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.css
+          git commit -m "Fix mobile homepage button overlap"
+          git push
