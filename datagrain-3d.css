@@ -5,6 +5,11 @@
 .u-section-2 .dg3d-service-art:hover{transform:scale(1.035)}
 .u-section-2 .dg3d-service-art img{display:block;width:100%;height:100%;max-width:100%;object-fit:cover;object-position:center center;transform:none}
 .u-section-2 .dg3d-fifth-card .u-text-6{font-weight:700;margin:29px 0 0;color:inherit}
+/* Legibilidade dos cinco serviços: sem quebras manuais e com maior área útil para o texto. */
+.u-section-2 .u-repeater-item > .u-container-layout{padding-left:14px;padding-right:14px}
+.u-section-2 .u-repeater-item .dg3d-card-copy{display:block;width:100%;max-width:100%;margin:22px 0 0;font-size:16px;line-height:1.45;word-break:normal;overflow-wrap:normal;hyphens:none}
+.u-section-2 .dg3d-card-title{display:block;font-weight:700;line-height:1.3}
+.u-section-2 .dg3d-card-description{display:block;margin-top:8px;font-weight:400;line-height:1.42}
 .dg3d-detail,.dg3d-detail *{box-sizing:border-box}
 .dg3d-detail{padding:68px 24px 72px;background:#f5f8fa;color:#3d4a5d;font-family:Arial,"Open Sans",sans-serif}
 .dg3d-wrap{max-width:1140px;margin:0 auto}
@@ -31,3 +36,6 @@
 @media(max-width:991px){.u-section-2 .dg3d-service-art{height:420px}.u-section-2 .dg3d-fifth-card .u-container-layout-5{padding-bottom:7px}.dg3d-detail-top{gap:29px}}
 @media(max-width:767px){.u-section-2 .u-repeater-1{grid-template-columns:repeat(5,100%);grid-auto-columns:100%}.u-section-2 .dg3d-service-art{height:728px}.u-section-2 .dg3d-fifth-card .u-container-layout-5{padding-left:10px;padding-right:10px}.dg3d-detail-top{grid-template-columns:1fr;gap:17px}.dg3d-offers{grid-template-columns:repeat(2,1fr)}.dg3d-detail-bottom{flex-direction:column;align-items:flex-start;gap:18px}}
 @media(max-width:575px){.u-section-2 .dg3d-service-art{height:448px}.dg3d-detail{padding:48px 18px}.dg3d-offers{grid-template-columns:1fr}.dg3d-offers article{min-height:auto}.dg3d-detail-bottom{padding:21px}.dg3d-detail-bottom a{white-space:normal;width:100%}.dg3d-brandlock img{width:270px;height:155px}}
+/* Ajustes específicos para smartphones e tablets. */
+@media(max-width:767px){.u-section-2 .u-image-1,.u-section-2 .u-image-2,.u-section-2 .u-image-3,.u-section-2 .u-image-4,.u-section-2 .dg3d-service-art{height:360px}}
+@media(max-width:575px){.u-section-2 .u-image-1,.u-section-2 .u-image-2,.u-section-2 .u-image-3,.u-section-2 .u-image-4,.u-section-2 .dg3d-service-art{height:300px}.u-section-2 .u-repeater-item .dg3d-card-copy{font-size:16px;line-height:1.45}}
