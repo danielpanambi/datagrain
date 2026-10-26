@@ -1,9 +1,8 @@
 /* Datagrain — identidade unificada a partir do propósito, mantendo "Quem Somos". */
 :root{--dg-ink:#1f2343;--dg-copy:#58697e;--dg-teal:#218381;--dg-blue:#478ac9;--dg-surface:#f5f8fa;--dg-line:#dae4e9}
 html{scroll-behavior:smooth}
-#sec-9810,#block-1,#sec-63e7,#sec-875e,#sec-439a,#datagrain-3d,#block-2,#sec-0fd3,#sec-1c6d{scroll-margin-top:94px}
+#sec-9810,#block-1,#sec-63e7,#sec-875e,#sec-439a,#datagrain-3d,#block-2,#sec-0fd3,#sec-1c6d{scroll-margin-top:24px}
 
-.u-header{position:sticky;top:0;z-index:1100;background:#fff;box-shadow:0 1px 9px rgba(31,35,67,.075)}
 /* Um só menu lateral, no computador e no celular, com as nove etapas. */
 .u-header .u-menu .u-nav-container{display:none!important}
 .u-header .u-menu.open .u-nav-container-collapse{display:block!important}
