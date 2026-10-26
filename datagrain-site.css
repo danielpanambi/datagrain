@@ -5,6 +5,7 @@ html{scroll-behavior:smooth}
 
 /* Um só menu lateral, no computador e no celular, com as nove etapas. */
 .u-header .u-menu .u-nav-container{display:none!important}
+.u-header .u-menu.open .u-nav-container-collapse{display:block!important}
 .u-header .u-menu .menu-collapse{display:block!important}
 .u-header .u-menu .menu-collapse .u-hamburger-link{display:inline-flex;align-items:center;gap:9px;padding:10px 12px!important;color:var(--dg-ink)}
 .u-header .u-menu .menu-collapse .u-hamburger-link::after{content:"MENU";font:700 12px/1.2 "Open Sans",Arial,sans-serif;letter-spacing:.11em}
