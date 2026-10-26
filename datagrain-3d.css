@@ -1,0 +1,41 @@
+/* Datagrain 3D: extensão pontual dos serviços existentes, sem alterar o restante do site. */
+.u-section-2 .u-repeater-1{grid-template-columns:repeat(5,25%);grid-auto-columns:25%}
+.u-section-2 .dg3d-fifth-card .u-container-layout-5{padding:5px 30px 30px}
+.u-section-2 .dg3d-service-art{height:315px;margin-top:2px;display:block;padding:0;background:#fff;overflow:hidden;border:0;transition:transform .3s ease}
+.u-section-2 .dg3d-service-art:hover{transform:scale(1.035)}
+.u-section-2 .dg3d-service-art img{display:block;width:100%;height:100%;max-width:100%;object-fit:cover;object-position:center center;transform:none}
+.u-section-2 .dg3d-fifth-card .u-text-6{font-weight:700;margin:29px 0 0;color:inherit}
+/* Legibilidade dos cinco serviços: sem quebras manuais e com maior área útil para o texto. */
+.u-section-2 .u-repeater-item > .u-container-layout{padding-left:14px;padding-right:14px}
+.u-section-2 .u-repeater-item .dg3d-card-copy{display:block;width:100%;max-width:100%;margin:22px 0 0;font-size:16px;line-height:1.45;word-break:normal;overflow-wrap:normal;hyphens:none}
+.u-section-2 .dg3d-card-title{display:block;font-weight:700;line-height:1.3}
+.u-section-2 .dg3d-card-description{display:block;margin-top:8px;font-weight:400;line-height:1.42}
+.dg3d-detail,.dg3d-detail *{box-sizing:border-box}
+.dg3d-detail{padding:68px 24px 72px;background:#f5f8fa;color:#3d4a5d;font-family:Arial,"Open Sans",sans-serif}
+.dg3d-wrap{max-width:1140px;margin:0 auto}
+.dg3d-detail-top{display:grid;grid-template-columns:1fr 1fr;align-items:end;gap:60px;margin-bottom:31px}
+.dg3d-brandlock{display:flex;align-items:center;max-width:345px;margin-bottom:13px}
+.dg3d-brandlock img{display:block;width:320px;max-width:100%;height:170px;object-fit:cover;object-position:center 54%}
+.dg3d-kicker{margin:0 0 10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#218381}
+.dg3d-detail h2{font:bold clamp(28px,3vw,41px)/1.21 Ubuntu,Arial,sans-serif;letter-spacing:-.03em;color:#1f2343;margin:0}
+.dg3d-intro-copy{font-size:16px;line-height:1.7;margin:0 0 4px;color:#58697e}
+.dg3d-offers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.dg3d-offers article{display:flex;flex-direction:column;border:1px solid #dae4e9;background:#fff;border-radius:8px;padding:20px;min-height:315px;overflow:hidden}
+.dg3d-offers h3{font:bold 18px/1.28 Ubuntu,Arial,sans-serif;margin:0 0 9px;color:#1f2343}
+.dg3d-offers p{font-size:14px;line-height:1.56;margin:0;color:#637286}
+.dg3d-offer-media{margin:auto 0 0;padding-top:16px}
+.dg3d-offer-media img{display:block;width:100%;height:150px;object-fit:cover;object-position:center;border-radius:5px}
+.dg3d-visual-note{font-size:11px;color:#718093;margin:10px 0 0;text-align:right}
+.dg3d-detail-bottom{margin-top:20px;background:#e6f1f4;border-radius:8px;display:flex;justify-content:space-between;align-items:center;gap:30px;padding:23px 26px}
+.dg3d-detail-bottom p{font-weight:700;line-height:1.5;color:#253c52;margin:0;max-width:700px}
+.dg3d-detail-bottom small{display:block;font-weight:400;color:#6a7c8e;font-size:12px;margin-top:4px}
+.dg3d-detail-bottom a{display:inline-flex;justify-content:center;align-items:center;gap:8px;white-space:nowrap;border-radius:6px;background:#478ac9;padding:13px 18px;color:#fff!important;text-decoration:none;font-size:14px;font-weight:700;transition:background .2s}
+.dg3d-detail-bottom a:hover{background:#276daf}
+.dg3d-detail a:focus-visible{outline:3px solid #dca03d;outline-offset:4px}
+@media(max-width:1199px){.u-section-2 .u-repeater-1{grid-template-columns:repeat(5,50%);grid-auto-columns:50%}.u-section-2 .dg3d-service-art{height:245px}}
+@media(max-width:991px){.u-section-2 .dg3d-service-art{height:420px}.u-section-2 .dg3d-fifth-card .u-container-layout-5{padding-bottom:7px}.dg3d-detail-top{gap:29px}}
+@media(max-width:767px){.u-section-2 .u-repeater-1{grid-template-columns:repeat(5,100%);grid-auto-columns:100%}.u-section-2 .dg3d-service-art{height:728px}.u-section-2 .dg3d-fifth-card .u-container-layout-5{padding-left:10px;padding-right:10px}.dg3d-detail-top{grid-template-columns:1fr;gap:17px}.dg3d-offers{grid-template-columns:repeat(2,1fr)}.dg3d-detail-bottom{flex-direction:column;align-items:flex-start;gap:18px}}
+@media(max-width:575px){.u-section-2 .dg3d-service-art{height:448px}.dg3d-detail{padding:48px 18px}.dg3d-offers{grid-template-columns:1fr}.dg3d-offers article{min-height:auto}.dg3d-detail-bottom{padding:21px}.dg3d-detail-bottom a{white-space:normal;width:100%}.dg3d-brandlock img{width:270px;height:155px}}
+/* Ajustes específicos para smartphones e tablets. */
+@media(max-width:767px){.u-section-2 .u-image-1,.u-section-2 .u-image-2,.u-section-2 .u-image-3,.u-section-2 .u-image-4,.u-section-2 .dg3d-service-art{height:360px}}
+@media(max-width:575px){.u-section-2 .u-image-1,.u-section-2 .u-image-2,.u-section-2 .u-image-3,.u-section-2 .u-image-4,.u-section-2 .dg3d-service-art{height:300px}.u-section-2 .u-repeater-item .dg3d-card-copy{font-size:16px;line-height:1.45}}
