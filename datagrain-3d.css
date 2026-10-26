@@ -39,3 +39,33 @@
 /* Ajustes específicos para smartphones e tablets. */
 @media(max-width:767px){.u-section-2 .u-image-1,.u-section-2 .u-image-2,.u-section-2 .u-image-3,.u-section-2 .u-image-4,.u-section-2 .dg3d-service-art{height:360px}}
 @media(max-width:575px){.u-section-2 .u-image-1,.u-section-2 .u-image-2,.u-section-2 .u-image-3,.u-section-2 .u-image-4,.u-section-2 .dg3d-service-art{height:300px}.u-section-2 .u-repeater-item .dg3d-card-copy{font-size:16px;line-height:1.45}}
+
+/* Mobile: compactar os intervalos antes dos cards e entre serviços e SaaS. */
+@media (max-width:767px) {
+  /* O layout Nicepage reserva altura fixa e margens de desktop no carrossel. */
+  .u-section-2 .u-sheet-1 {min-height:0;padding-top:24px;padding-bottom:28px}
+  .u-section-2 .u-text-1 {margin:0 auto 14px;line-height:1.2}
+  .u-section-2 .u-list-1 {margin:0}
+  .u-section-2 .u-repeater-1 {min-height:0}
+  .u-section-2 .u-repeater-item > .u-container-layout {padding-top:0;padding-bottom:12px}
+  .u-section-2 .u-image-1,.u-section-2 .u-image-2,.u-section-2 .u-image-3,.u-section-2 .u-image-4,.u-section-2 .dg3d-service-art {margin-top:0}
+  .u-section-2 .u-repeater-item .dg3d-card-copy {margin-top:15px}
+  /* A seção especializada tinha um título sobreposto e 626–684px de margem compensatória. */
+  .u-section-3 .u-sheet-1 {display:flex;flex-direction:column;min-height:0;padding-top:27px;padding-bottom:30px}
+  .u-section-3 .u-text-9 {order:0;align-self:center;width:100%;max-width:100%;margin:0 0 22px;line-height:1.2}
+  .u-section-3 .u-list-1 {order:1;width:100%;margin:0}
+  .u-section-3 .u-repeater-1 {min-height:0;grid-template-columns:minmax(0,1fr);grid-auto-rows:auto;gap:17px}
+  .u-section-3 .u-repeater-1 > .u-repeater-item {min-height:0}
+  .u-section-3 .u-repeater-1 > .u-repeater-item > .u-container-layout {padding:0}
+  .u-section-3 .u-repeater-1 p {margin:0;font-size:16px;line-height:1.55}
+  .u-section-3 .u-list-2 {display:none}
+  .u-section-3 .u-text-10 {order:2;width:100%;margin:24px 0 0;font-size:16px;line-height:1.55}
+}
+@media (max-width:575px) {
+  .u-section-2 .u-sheet-1 {padding-top:20px;padding-bottom:24px}
+  .u-section-2 .u-text-1 {margin-bottom:12px}
+  .u-section-3 .u-sheet-1 {padding-top:24px;padding-bottom:26px}
+  .u-section-3 .u-text-9 {margin-bottom:18px}
+  .u-section-3 .u-repeater-1 {gap:14px}
+  .u-section-3 .u-text-10 {margin-top:20px}
+}
