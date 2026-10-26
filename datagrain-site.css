@@ -1,8 +1,9 @@
 /* Datagrain — identidade unificada a partir do propósito, mantendo "Quem Somos". */
 :root{--dg-ink:#1f2343;--dg-copy:#58697e;--dg-teal:#218381;--dg-blue:#478ac9;--dg-surface:#f5f8fa;--dg-line:#dae4e9}
 html{scroll-behavior:smooth}
-#sec-9810,#block-1,#sec-63e7,#sec-875e,#sec-439a,#datagrain-3d,#block-2,#sec-0fd3,#sec-1c6d{scroll-margin-top:24px}
+#sec-9810,#block-1,#sec-63e7,#sec-875e,#sec-439a,#datagrain-3d,#block-2,#sec-0fd3,#sec-1c6d{scroll-margin-top:94px}
 
+.u-header{position:sticky;top:0;z-index:1100;background:#fff;box-shadow:0 1px 9px rgba(31,35,67,.075)}
 /* Um só menu lateral, no computador e no celular, com as nove etapas. */
 .u-header .u-menu .u-nav-container{display:none!important}
 .u-header .u-menu.open .u-nav-container-collapse{display:block!important}
@@ -87,3 +88,9 @@ html{scroll-behavior:smooth}
   .dg-unified-summary{font-size:16px;margin-top:20px}
   .u-header .u-menu .menu-collapse .u-hamburger-link::after{font-size:11px}
 }
+
+/* Harmonia de fontes entre a área industrial e os serviços institucionais. */
+.dg3d-detail{font-family:"Open Sans",Arial,sans-serif}
+.dg3d-offers p{font-size:15px;line-height:1.58}
+.u-section-4 h2{font-size:clamp(27px,2.8vw,36px);color:var(--dg-ink);line-height:1.25}
+.u-section-4 p{font-size:16px;color:var(--dg-copy);line-height:1.6}
