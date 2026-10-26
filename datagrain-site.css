@@ -1,0 +1,96 @@
+/* Datagrain — identidade unificada a partir do propósito, mantendo "Quem Somos". */
+:root{--dg-ink:#1f2343;--dg-copy:#58697e;--dg-teal:#218381;--dg-blue:#478ac9;--dg-surface:#f5f8fa;--dg-line:#dae4e9}
+html{scroll-behavior:smooth}
+#sec-9810,#block-1,#sec-63e7,#sec-875e,#sec-439a,#datagrain-3d,#block-2,#sec-0fd3,#sec-1c6d{scroll-margin-top:94px}
+
+.u-header{position:sticky;top:0;z-index:1100;background:#fff;box-shadow:0 1px 9px rgba(31,35,67,.075)}
+/* Um só menu lateral, no computador e no celular, com as nove etapas. */
+.u-header .u-menu .u-nav-container{display:none!important}
+.u-header .u-menu.open .u-nav-container-collapse{display:block!important}
+.u-header .u-menu .menu-collapse{display:block!important}
+.u-header .u-menu .menu-collapse .u-hamburger-link{display:inline-flex;align-items:center;gap:9px;padding:10px 12px!important;color:var(--dg-ink)}
+.u-header .u-menu .menu-collapse .u-hamburger-link::after{content:"MENU";font:700 12px/1.2 "Open Sans",Arial,sans-serif;letter-spacing:.11em}
+.u-header .u-menu .u-nav-container-collapse .u-sidenav{width:min(365px,88vw);background:var(--dg-ink)!important}
+.u-header .u-menu .u-nav-container-collapse .u-sidenav-overflow{padding:48px 13px 22px}
+.u-header .u-menu .u-nav-2{text-align:left;margin:0;padding:0}
+.u-header .u-menu .u-nav-2 .u-nav-link{display:block;white-space:normal;overflow-wrap:normal;padding:11px 16px;color:#fff!important;font:600 15px/1.42 "Open Sans",Arial,sans-serif;border-bottom:1px solid rgba(255,255,255,.12)}
+.u-header .u-menu .u-nav-2 .u-nav-link:hover,.u-header .u-menu .u-nav-2 .u-nav-link:focus-visible{color:#fff!important;background:#276b82;outline:0;border-radius:5px}
+.u-header .u-menu .u-menu-close{color:#fff}
+
+/* Abertura institucional preservada; refinamento tipográfico apenas no propósito. */
+.u-section-1 .u-text-3{font-family:Ubuntu,Arial,sans-serif;font-size:clamp(17px,1.8vw,20px);line-height:1.5;color:var(--dg-ink)}
+
+/* Tipografia compartilhada para as demais seções. */
+.u-section-2,.u-section-4,.u-section-5,.u-section-6,.u-section-7,.u-section-8,.u-section-9,.dg-specialized{color:var(--dg-copy);font-family:"Open Sans",Arial,sans-serif}
+:is(.u-section-2,.u-section-4,.u-section-5,.u-section-6,.u-section-7,.u-section-8,.u-section-9) :is(h2,h3,h4,h5){font-family:Ubuntu,Arial,sans-serif;letter-spacing:-.02em}
+:is(.u-section-2,.u-section-6,.u-section-7,.u-section-8) h2{color:var(--dg-ink);font-size:clamp(28px,3vw,40px);line-height:1.22}
+:is(.u-section-2,.u-section-4,.u-section-5,.u-section-6,.u-section-7,.u-section-8) p{font-family:"Open Sans",Arial,sans-serif;line-height:1.6}
+
+/* Carrossel: mesma linguagem de cartões adotada na Datagrain 3D. */
+.u-section-2{background:var(--dg-surface)}
+.u-section-2 .u-text-1{color:var(--dg-ink);font-weight:700;letter-spacing:-.025em;font-size:clamp(28px,3vw,38px);line-height:1.2}
+.u-section-2 .u-repeater-item{box-sizing:border-box;background:#fff;border:1px solid var(--dg-line);border-radius:9px;overflow:hidden;box-shadow:0 2px 12px rgba(31,35,67,.045)}
+.u-section-2 .u-repeater-item .dg3d-card-copy{color:var(--dg-copy);font-family:"Open Sans",Arial,sans-serif;font-size:16px;line-height:1.5}
+.u-section-2 .dg3d-card-title{color:var(--dg-ink);font-family:Ubuntu,Arial,sans-serif;font-size:17px;line-height:1.3}
+.u-section-2 .dg3d-card-description{font-size:15px;line-height:1.5}
+
+/* Serviços especializados, reestruturados em fluxo natural, sem margens artificiais. */
+.dg-specialized{background:#fff;padding:66px 24px 70px;box-sizing:border-box}
+.dg-specialized *{box-sizing:border-box}
+.dg-unified-wrap{max-width:1140px;margin:0 auto}
+.dg-unified-kicker{font:800 12px/1.4 "Open Sans",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--dg-teal);margin:0 0 10px;text-align:center}
+.dg-specialized h2{font:700 clamp(28px,3vw,40px)/1.22 Ubuntu,Arial,sans-serif;letter-spacing:-.025em;color:var(--dg-ink);text-align:center;margin:0 0 28px}
+.dg-specialized-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.dg-unified-card{border:1px solid var(--dg-line);background:var(--dg-surface);border-radius:9px;padding:22px;min-height:205px}
+.dg-unified-index{display:inline-flex;align-items:center;justify-content:center;border-radius:7px;background:#e1f0ef;color:var(--dg-teal);min-width:43px;height:40px;font:700 17px Ubuntu,Arial,sans-serif;margin:0 0 18px}
+.dg-unified-card p{font:400 15px/1.58 "Open Sans",Arial,sans-serif;color:var(--dg-copy);margin:0}
+.dg-unified-summary{max-width:870px;margin:26px auto 0;text-align:center;color:var(--dg-ink);font:600 17px/1.55 "Open Sans",Arial,sans-serif}
+
+/* SaaS, apoio e demais blocos institucionais, preservando conteúdo e imagens. */
+.u-section-5 .u-text-1,.u-section-5 .u-text-2{font-family:"Open Sans",Arial,sans-serif;font-size:16px;line-height:1.62;color:var(--dg-copy)}
+.u-section-5 .u-text-1 span[style*="2.5rem"]{font-family:Ubuntu,Arial,sans-serif;letter-spacing:-.025em;color:var(--dg-ink)}
+.u-section-6 .u-layout-cell-2{background:var(--dg-surface)}
+.u-section-6 .u-text-1{color:var(--dg-teal);font-family:"Open Sans",Arial,sans-serif;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+.u-section-6 .u-text-2{color:var(--dg-ink);font-size:clamp(27px,2.9vw,38px);line-height:1.24}
+.u-section-6 .u-text-3{color:var(--dg-copy);font-size:16px;line-height:1.6}
+.u-section-7{background:#fff}
+.u-section-7 .u-text-1{color:var(--dg-ink);font-family:Ubuntu,Arial,sans-serif;font-weight:700;font-size:clamp(27px,3vw,38px);line-height:1.25}
+.u-section-7 .u-image-1{border-radius:9px}
+.u-section-7 .u-text-2,.u-section-7 .u-text-2 a{font-family:"Open Sans",Arial,sans-serif;font-size:14px;line-height:1.45;overflow-wrap:anywhere}
+.u-section-8{background:var(--dg-surface)}
+.u-section-8 .u-text-1{color:var(--dg-ink);font-family:Ubuntu,Arial,sans-serif;font-weight:700;font-size:clamp(28px,3vw,40px)}
+.u-section-8 .u-text-2{font-family:Ubuntu,Arial,sans-serif;color:var(--dg-ink);font-size:22px;font-weight:700}
+.u-section-8 .u-text-3{font-family:"Open Sans",Arial,sans-serif;font-size:16px;line-height:1.55}
+.u-section-9 :is(h5,p,a){font-family:"Open Sans",Arial,sans-serif}
+.u-section-9 h5{font-size:17px;font-weight:700}
+.u-section-9 p{font-size:16px;line-height:1.55}
+.u-footer .u-text-1{font-family:"Open Sans",Arial,sans-serif;line-height:1.5}
+
+/* Ajustes de grid e leitura para tablet e smartphone. */
+@media(max-width:991px){
+  .dg-specialized-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .dg-unified-card{min-height:180px}
+}
+@media(max-width:767px){
+  .u-header .u-menu .u-nav-container-collapse .u-sidenav{width:min(350px,90vw)}
+  .u-header .u-menu .u-nav-2 .u-nav-link{font-size:14px;padding:11px 12px}
+  .dg-specialized{padding:43px 20px 49px}
+  .dg-specialized h2{margin-bottom:22px}
+  .u-section-2 .u-repeater-item{border-radius:8px}
+  .u-section-2 .u-text-1{font-size:clamp(27px,5vw,33px)}
+}
+@media(max-width:575px){
+  .dg-specialized{padding:36px 18px 40px}
+  .dg-specialized-grid{grid-template-columns:1fr;gap:11px}
+  .dg-unified-card{min-height:0;padding:18px 20px}
+  .dg-unified-index{height:34px;min-width:38px;margin-bottom:11px;font-size:16px}
+  .dg-unified-card p{font-size:15px}
+  .dg-unified-summary{font-size:16px;margin-top:20px}
+  .u-header .u-menu .menu-collapse .u-hamburger-link::after{font-size:11px}
+}
+
+/* Harmonia de fontes entre a área industrial e os serviços institucionais. */
+.dg3d-detail{font-family:"Open Sans",Arial,sans-serif}
+.dg3d-offers p{font-size:15px;line-height:1.58}
+.u-section-4 h2{font-size:clamp(27px,2.8vw,36px);color:var(--dg-ink);line-height:1.25}
+.u-section-4 p{font-size:16px;color:var(--dg-copy);line-height:1.6}
