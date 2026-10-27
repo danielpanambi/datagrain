@@ -16,7 +16,7 @@ html{scroll-behavior:smooth}
 .dg-exp-service-card:focus-visible{outline:3px solid #53b4b0;outline-offset:3px}
 .dg-exp-service-image{position:relative;display:block;overflow:hidden;height:205px;background:#e9eef1}
 .dg-exp-service-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .5s ease,filter .5s ease;filter:saturate(.85) contrast(1.03)}
-.dg-exp-service-card:nth-child(3) .dg-exp-service-image img{object-fit:contain;padding:8px;background:#edf2f5}
+.dg-exp-service-card:nth-child(3) .dg-exp-service-image img{object-fit:cover;padding:0;background:transparent}
 .dg-exp-service-card:hover .dg-exp-service-image img{transform:scale(1.055);filter:saturate(1) contrast(1.03)}
 .dg-exp-service-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 64%,rgba(17,35,56,.13));pointer-events:none}
 .dg-exp-service-content{display:flex;flex:1;flex-direction:column;padding:21px 22px 22px}
