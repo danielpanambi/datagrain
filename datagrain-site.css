@@ -159,3 +159,34 @@ html{scroll-behavior:smooth}
 @media(prefers-reduced-motion:reduce){
   .u-section-1 .u-btn-1.dg-logo-cta{animation:none}
 }
+
+/* Acabamento da versão para computador: espaçamento e alinhamento. */
+@media(min-width:992px){
+  /* Botão centrado sob a marca, com folga moderada. */
+  .u-section-1 .u-btn-1.dg-logo-cta{margin-top:-107px!important;margin-right:15px!important}
+  .u-section-1 .u-text-3{margin-top:105px!important}
+
+  /* Evita a soma de espaços vazios entre serviços e o bloco seguinte. */
+  .dg-specialized{padding-bottom:25px}
+  .u-section-4 .u-layout-wrap-1{margin-top:24px}
+
+  /* Centraliza vertical e horizontalmente todo o conjunto no quadro de apoio. */
+  .u-section-6 .u-layout-cell-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .u-section-6 .u-layout-cell-2 > .u-container-layout-2{
+    width:100%;
+    min-height:390px;
+    padding:26px 24px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  .u-section-6 .u-text-1.dg-section-title{margin:0 0 15px!important;text-align:center}
+  .u-section-6 .u-text-2.dg-secondary-heading{margin:0 0 15px!important;text-align:center}
+  .u-section-6 .u-text-3{margin:0!important;text-align:center}
+}
