@@ -143,7 +143,8 @@ html{scroll-behavior:smooth}
   50%{opacity:.68;box-shadow:0 0 0 7px rgba(71,138,201,.10)}
 }
 @media(min-width:992px){
-  .u-section-1 .u-btn-1.dg-logo-cta{margin-right:52px}
+  .u-section-1 .u-btn-1.dg-logo-cta{margin-top:-113px!important;margin-right:52px}
+  .u-section-1 .u-text-3{margin-top:111px!important}
 }
 @media(max-width:575px){
   .u-section-1 .u-btn-1.dg-logo-cta{
