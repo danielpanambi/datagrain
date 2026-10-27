@@ -167,8 +167,8 @@ html{scroll-behavior:smooth}
   .u-section-1 .u-text-3{margin-top:105px!important}
 
   /* Evita a soma de espaços vazios entre serviços e o bloco seguinte. */
-  .dg-specialized{padding-bottom:25px}
-  .u-section-4 .u-layout-wrap-1{margin-top:24px}
+  .dg-specialized{padding-bottom:10px}
+  .u-section-4 .u-layout-wrap-1{margin-top:0}
 
   /* Centraliza vertical e horizontalmente todo o conjunto no quadro de apoio. */
   .u-section-6 .u-layout-cell-2{
