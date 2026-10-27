@@ -93,3 +93,39 @@ html{scroll-behavior:smooth}
 .dg3d-offers p{font-size:15px;line-height:1.58}
 .u-section-4 h2{font-size:clamp(27px,2.8vw,36px);color:var(--dg-ink);line-height:1.25}
 .u-section-4 p{font-size:16px;color:var(--dg-copy);line-height:1.6}
+
+/* Hierarquia tipográfica dos títulos: abertura institucional maior; demais seções uniformes. */
+:root{--dg-section-title-size:clamp(28px,2.5vw,34px)}
+.dg-section-title{font-family:Ubuntu,Arial,sans-serif!important;font-size:var(--dg-section-title-size)!important;font-weight:700!important;line-height:1.22!important;letter-spacing:-.025em!important;color:var(--dg-ink)!important;text-transform:none!important}
+.dg-specialized h2.dg-section-title{font-size:var(--dg-section-title-size)!important}
+.u-section-2 .u-text-1.dg-section-title,.u-section-7 .u-text-1.dg-section-title,.u-section-8 .u-text-1.dg-section-title{text-align:center}
+.u-section-5 .dg-inline-heading{display:block;text-align:left;margin:0 0 10px}
+.u-section-5 .dg-saas-note{display:inline-block;padding:6px 12px;border-radius:999px;background:#e6f1f4;color:#218381;font:700 12px/1.4 "Open Sans",Arial,sans-serif;letter-spacing:.01em}
+.u-section-5 .dg-saas-product{display:block;margin:17px 0 0;color:var(--dg-ink);font:700 18px/1.35 Ubuntu,Arial,sans-serif;letter-spacing:.045em;text-transform:uppercase}
+.u-section-6 .u-text-1.dg-section-title{margin-bottom:11px}
+.u-section-6 .u-text-2.dg-secondary-heading{font-family:Ubuntu,Arial,sans-serif;font-size:clamp(21px,2vw,27px)!important;font-weight:600!important;line-height:1.28;color:var(--dg-copy)}
+.dg3d-detail h2.dg3d-section-heading{text-align:center;margin:0 0 30px!important;max-width:100%}
+.dg3d-detail .dg3d-secondary-title{font:700 clamp(23px,2.1vw,29px)/1.26 Ubuntu,Arial,sans-serif;letter-spacing:-.02em;color:var(--dg-ink);margin:0}
+.dg3d-detail .dg3d-detail-top{margin-bottom:30px}
+
+/* Frases de ligação como elementos de transição, não como linhas soltas. */
+.u-section-1 .u-text-3{max-width:100%;padding:17px 23px;border:1px solid #dbe8ef;border-left:4px solid var(--dg-teal);background:var(--dg-surface);border-radius:8px}
+.dg-topic-bridge{display:flex;align-items:center;justify-content:center;gap:17px;padding:19px 22px;background:linear-gradient(to bottom,var(--dg-surface) 50%,#fff 50%);font-family:"Open Sans",Arial,sans-serif}
+.dg-topic-bridge:before,.dg-topic-bridge:after{content:"";height:1px;background:#bad5d9;flex:1;max-width:150px}
+.dg-topic-bridge span{display:inline-block;background:#e6f1f4;border:1px solid #cfe2e3;border-radius:8px;padding:13px 22px;max-width:100%;text-align:center;color:var(--dg-teal);font:800 12px/1.35 "Open Sans",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.dg-specialized{padding-top:42px}
+.dg-specialized .dg-unified-summary{border:1px solid #d5e7e7;border-left:4px solid var(--dg-teal);background:#f5f8fa;border-radius:8px;padding:18px 24px}
+@media(max-width:767px){
+  .dg-topic-bridge{gap:10px;padding:14px 16px}
+  .dg-topic-bridge:before,.dg-topic-bridge:after{max-width:45px}
+  .dg-topic-bridge span{padding:11px 13px;letter-spacing:.06em}
+  .dg-specialized{padding-top:29px}
+  .u-section-1 .u-text-3{padding:13px 15px}
+  .dg3d-detail h2.dg3d-section-heading{margin-bottom:23px!important}
+}
+@media(max-width:575px){
+  .dg-topic-bridge:before,.dg-topic-bridge:after{display:none}
+  .dg-topic-bridge{padding:12px 15px}
+  .dg-topic-bridge span{width:100%;font-size:11px}
+  .dg-specialized .dg-unified-summary{padding:15px 17px}
+}
