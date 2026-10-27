@@ -58,8 +58,12 @@ html{scroll-behavior:smooth}
 .dg-exp-saas-flow-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.22fr);gap:40px;align-items:center;max-width:1140px;margin:0 auto}
 .dg-exp-saas-copy h2{font:700 clamp(27px,2.7vw,36px)/1.24 Ubuntu,Arial,sans-serif;color:var(--dx-navy);margin:0 0 18px}
 .dg-exp-saas-copy p:not(.dg-exp-eyebrow){font:400 16px/1.65 "Open Sans",Arial,sans-serif;color:var(--dx-muted);margin:0 0 23px}
-.dg-exp-saas-art{border-radius:16px;overflow:hidden;border:1px solid #d6e4e8;background:#fff;box-shadow:0 12px 34px rgba(28,66,78,.07)}
-.dg-exp-saas-art img{display:block;width:100%;height:auto}
+.dg-exp-saas-visuals{display:grid;grid-template-columns:1fr;gap:14px;min-width:0}
+.dg-exp-saas-visuals figure{position:relative;margin:0;border-radius:16px;overflow:hidden;border:1px solid #d6e4e8;background:#fff;box-shadow:0 12px 34px rgba(28,66,78,.07)}
+.dg-exp-saas-equipment{display:grid;place-items:center;min-height:300px;padding:10px 16px 40px;background:radial-gradient(circle at 50% 40%,#fff 0%,#f0f5f6 100%)!important}
+.dg-exp-saas-equipment img{display:block;width:100%;height:265px;object-fit:contain;object-position:center}
+.dg-exp-saas-art img{display:block;width:100%;height:180px;object-fit:contain;background:#f7fbfb}
+.dg-exp-saas-visuals figcaption{position:absolute;bottom:0;left:0;right:0;padding:8px 15px 10px;text-align:center;font:700 12px/1.4 "Open Sans",Arial,sans-serif;letter-spacing:.03em;color:var(--dx-navy);background:linear-gradient(0deg,rgba(236,247,246,.98),rgba(248,252,251,.92))}
 .dg-exp-saas-stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:1140px;margin:26px auto 0;gap:12px}
 .dg-exp-saas-stages span{display:flex;align-items:center;gap:11px;background:#fff;border:1px solid #dce8eb;border-radius:10px;padding:14px;font:600 13px/1.4 "Open Sans",Arial,sans-serif;color:var(--dx-navy)}
 .dg-exp-saas-stages b{display:grid;place-items:center;width:30px;min-width:30px;height:30px;border-radius:8px;background:#e0f3ef;color:var(--dx-teal);font:800 12px Ubuntu,Arial,sans-serif}
@@ -112,6 +116,10 @@ html{scroll-behavior:smooth}
   .dg-exp-contact-inner{gap:35px}
 }
 @media(max-width:767px){
+  .dg-exp-saas-equipment{min-height:0;padding:12px 10px 37px}
+  .dg-exp-saas-equipment img{height:265px}
+  .dg-exp-saas-art img{height:auto;max-height:260px}
+
   .dg-exp-solutions .dg-exp-solutions-wrap{padding:52px 17px 56px}
   .dg-exp-service-grid{gap:14px}
   .dg-exp-service-content{padding:17px}
@@ -132,6 +140,8 @@ html{scroll-behavior:smooth}
   .u-section-1 .u-text-3{padding:20px!important}
 }
 @media(max-width:575px){
+  .dg-exp-saas-equipment img{height:235px}
+
   .dg-exp-solutions .dg-exp-solutions-wrap{padding:40px 14px 43px}
   .dg-exp-service-grid{grid-template-columns:1fr}
   .dg-exp-service-card,.dg-exp-service-card:nth-child(4),.dg-exp-service-card:nth-child(5){grid-column:auto;width:100%}
