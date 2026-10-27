@@ -129,3 +129,32 @@ html{scroll-behavior:smooth}
   .dg-topic-bridge span{width:100%;font-size:11px}
   .dg-specialized .dg-unified-summary{padding:15px 17px}
 }
+
+/* Chamada principal: logo da Datagrain seguido por botão pulsante de contato. */
+.u-section-1 .u-btn-1.dg-logo-cta{
+  position:relative;
+  z-index:2;
+  white-space:nowrap;
+  text-align:center;
+  animation:dg-cta-blink 1.9s ease-in-out infinite;
+}
+@keyframes dg-cta-blink{
+  0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(71,138,201,.20)}
+  50%{opacity:.68;box-shadow:0 0 0 7px rgba(71,138,201,.10)}
+}
+@media(min-width:992px){
+  .u-section-1 .u-btn-1.dg-logo-cta{margin-right:52px}
+}
+@media(max-width:575px){
+  .u-section-1 .u-btn-1.dg-logo-cta{
+    order:3;
+    width:max-content;
+    max-width:calc(100% - 16px);
+    margin:-27px auto 0!important;
+    padding:11px 14px;
+    font-size:clamp(11px,3.2vw,14px);
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .u-section-1 .u-btn-1.dg-logo-cta{animation:none}
+}
